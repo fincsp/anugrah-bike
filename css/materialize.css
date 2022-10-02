@@ -2163,6 +2163,7 @@ html {
  */
 body {
   margin: 0;
+  position: fixed;
 }
 
 /**
@@ -2816,7 +2817,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 1000px;
 }
 
 .parallax-container .parallax {
@@ -3429,9 +3430,12 @@ table span.badge {
 }
 
 .container {
-  margin: 0 auto;
+  /* margin: 0 auto;
   max-width: 1280px;
-  width: 90%;
+  width: 90%; */
+    margin-left:auto;
+    margin-right:auto;
+    width:1280; /* ubah 900px jadi ukuran lebar website ente */
 }
 
 @media only screen and (min-width: 601px) {
@@ -4305,8 +4309,11 @@ nav i.material-icons {
 }
 
 nav .nav-wrapper {
-  position: relative;
-  height: 100%;
+  /* position: relative;
+  height: 100%; */
+    margin-left:auto;
+    margin-right:auto;
+    width:1280px; /* ubah 900px jadi ukuran lebar website ente */
 }
 
 @media only screen and (min-width: 993px) {

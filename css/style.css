@@ -17,3 +17,16 @@
     max-width: 150px;
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
+
+footer {
+    min-height: 50px;
+    padding-top:12px;
+}
+
+.jumbotron img {
+    width: 25%;
+}
+
+section {
+    min-height: 420px;
+}
